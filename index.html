@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="darkOverlay">
+        
+    </div>
+    <video autoplay muted loop id="myVideo">
+        <source src="assets/abstract.mp4" type="video/mp4">
+    </video>
+    <header>
+        <div class="time">
+            <span><p id="firstNum"></p></span><span><p id="secondNum"></p></span><span><p id="semicolon">:</p></span><span><p id="thirdNum"></p></span><span><p id="fourthNum"></p></span>
+        </div>
+        <h1 id="greeting"></h1>
+    </header>
+    <div class="container">
+        <div class="searchBar">
+            <form action="https://www.google.com/search">
+                <input type="text" name="q" id="searchInput" placeholder="Search for anything">
+            </form> 
+        </div>
+        <div class="inputLogos">
+            <img src="assets/search.png" id="searchIMG">
+            <img src="assets/g.png" id="gIMG">
+        </div>
+        <div class="logos">
+            <div class="logosContainer">
+                <a href="https://mail.google.com"><img src="assets/gmail.png"></a>
+            </div>
+            <div class="logosContainer">
+                <a href="https://www.google.no/maps/"><img src="assets/maps.png"></a>
+            </div>
+            <div class="logosContainer">
+                <a href="https://drive.google.com/drive/my-drive"><img src="assets/drive.png"></a>
+            </div>
+            <div class="logosContainer">
+                <a href="https://www.youtube.com/"><img src="assets/youtube.png"></a>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

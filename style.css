@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+a {
+    line-height: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    color: #202020;
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: relative;
+    top: 5%;
+    text-align: center;
+    line-height: 1;
+}
+
+.time {
+    color: #ffffff;
+    font-size: 8rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#firstNum {
+    color: #4285F4;
+}
+
+#secondNum {
+    color: #DB4437;
+}
+
+#thirdNum {
+    color: #F4B400;
+}
+
+#fourthNum {
+    color: #0F9D58;
+}
+
+.time span {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 35%;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+}
+
+.inputLogos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 37px;
+    margin: 0 20px;
+    pointer-events: none;
+}
+
+#gIMG {
+    height: 25px;
+}
+
+#searchInput {
+    border: 1px solid #eee;
+    outline: none;
+    padding: 1em 4em;
+    width: 500px;
+    border-radius: 100px;
+}
+
+.logosContainer {
+    background-color: #ffffff;
+    border-radius: 100px;
+    padding: 10px;
+    justify-self: left;
+    display: flex;
+    align-items: center;
+    border: 1px solid #eee;
+    margin: 0 20px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+}
+
+.logos img {
+    height: 35px;
+}
+
+.darkOverlay {
+    background-color: rgb(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#myVideo {
+    z-index: -2;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    #searchInput {
+        width: 400px;
+    }
+
+    .logos img {
+        height: 25px;
+    }
+
+    .logosContainer {
+        margin: 0 10px;
+    }
+
+    .time {
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #searchInput {
+        width: 300px;
+    }
+}
