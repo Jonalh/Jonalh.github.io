@@ -10,7 +10,7 @@ if (currentHour <= 11) {
     greeting.innerHTML = "Good afternoon Jonas";
 } else if (currentHour <=  21) {
     greeting.innerHTML = "Good evening Jonas";
-} else {
+} else if (currentHour <=  24 $$ <=  05) {
     greeting.innerHTML = "Good night Jonas";
 }
 
