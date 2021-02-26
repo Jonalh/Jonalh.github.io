@@ -4,13 +4,14 @@ let currentMinutes = currentTime.getMinutes();
 
 let greeting = document.getElementById("greeting");
 
-if (currentHour <= 11) {
+if (currentHour <= 5) {
+} else if (currentHour <= 11) {
     greeting.innerHTML = "Good morning Jonas";
 } else if (currentHour <= 16 ) {
     greeting.innerHTML = "Good afternoon Jonas";
 } else if (currentHour <=  21) {
     greeting.innerHTML = "Good evening Jonas";
-} else if (currentHour <=  24 || <=  5) {
+} else if (currentHour <=  23) {
     greeting.innerHTML = "Good night Jonas";
 }
 
