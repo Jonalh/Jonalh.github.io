@@ -5,6 +5,7 @@ let currentMinutes = currentTime.getMinutes();
 let greeting = document.getElementById("greeting");
 
 if (currentHour <= 5) {
+    greeting.innerHTML = "Good night Jonas";
 } else if (currentHour <= 11) {
     greeting.innerHTML = "Good morning Jonas";
 } else if (currentHour <= 16 ) {
