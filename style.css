@@ -103,12 +103,11 @@ header {
     display: flex;
     align-items: center;
     border: 1px solid #eee;
-    margin: 0 20px;
 }
 
 .logos {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .logos img {
